@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Contact FitCore Studio</title>
+  <meta name='description' content='Get in touch with FitCore Studio to book a session or ask questions about programs and pricing.'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='font-sans antialiased'>
+  <!-- Navigation -->
+  <nav class='bg-white shadow-lg sticky top-0 z-50'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='flex items-center justify-between h-16'>
+        <a href='index.html' class='text-2xl font-bold text-gray-800'>FitCore Studio</a>
+        <div class='hidden md:flex space-x-6'>
+          <a href='index.html' class='text-gray-600 hover:text-gray-800'>Home</a>
+          <a href='#contact' class='text-gray-600 hover:text-gray-800'>Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class='relative w-full h-72 md:h-96'>
+    <img src='https://images.unsplash.com/photo-1670004810567-f4328dcc983e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBneW0lMjBjb250YWN0JTIwYXJlYXxlbnwwfDB8fHwxNzU5NDMwMTIzfDA&ixlib=rb-4.1.0&q=80&w=1080' alt='Host speaking with gym members in a reception area' class='absolute inset-0 w-full h-full object-cover'>
+    <div class='absolute inset-0 bg-black opacity-60'></div>
+    <div class='relative z-10 flex items-center justify-center h-full'>
+      <div class='text-center text-white px-4'>
+        <h1 class='text-3xl md:text-5xl font-bold font-[Oswald] mb-2'>Contact FitCore Studio</h1>
+        <p class='max-w-md mx-auto'>Have questions or want to schedule your first session</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class='py-12'>
+    <div class='max-w-4xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <form class='bg-white shadow-md rounded-lg p-6' action='#' method='post' aria-label='Contact form'>
+        <div class='grid grid-cols-1 md:grid-cols-2 gap-4'>
+          <div>
+            <label class='block text-sm font-medium text-gray-700'>Name</label>
+            <input type='text' name='name' required class='mt-1 w-full border border-gray-300 rounded-md px-3 py-2' placeholder='Your name'>
+          </div>
+          <div>
+            <label class='block text-sm font-medium text-gray-700'>Email</label>
+            <input type='email' name='email' required class='mt-1 w-full border border-gray-300 rounded-md px-3 py-2' placeholder='you@example.com'>
+          </div>
+        </div>
+        <div class='mt-4'>
+          <label class='block text-sm font-medium text-gray-700'>Phone</label>
+          <input type='tel' name='phone' class='mt-1 w-full border border-gray-300 rounded-md px-3 py-2' placeholder='(555) 123-4567'>
+        </div>
+        <div class='mt-4'>
+          <label class='block text-sm font-medium text-gray-700'>Message</label>
+          <textarea name='message' rows='5' class='mt-1 w-full border border-gray-300 rounded-md px-3 py-2' placeholder='Tell us how we can help'></textarea>
+        </div>
+        <div class='mt-4'>
+          <button type='submit' class='bg-[#FF4500] text-white px-6 py-2 rounded-md hover:shadow-lg transition-all duration-300'>Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class='bg-[#1A1A1A] text-white py-8'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <p class='text-center text-gray-400 text-sm'>© 2025 FitCore Studio. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
